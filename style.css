@@ -5,24 +5,91 @@
   font-style: normal;
 }
 
+.logo {
+  width: 80%;
+  object-fit: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+ul a {
+  text-decoration: none;
+  color: #46352a;
+}
+
+ul li {
+  width: 100px;
+}
+
 h1 h2 {
   font-family: "Vollkorn SC", serif;
-  font-weight: 400;
   font-style: normal;
+  font-weight: 200;
 }
 
-body{
-    background-color: #F2EFEE;
+body {
+  background-color: #f2efee;
 }
 
-#imgProduit{
-    width: 50%;
+#imgProduit {
+  width: 50%;
+  object-fit: cover;
 }
 
 .sect1 {
-    display: flex;
-  }
+  display: flex;
+}
 
 #sectH1 {
+  width: 100%;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+background-color: #46352a;
+}
 
-  }
+footer {
+  background-color: #46352a;
+  color: #f2efee;
+}
+
+h1{
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.figCap{
+    border: solid 1px;
+    border-color: #46352a;
+    width: 15%;
+}
+
+/* #imgP{
+    border: solid 1px;
+    width: 13%;
+    text-align: center;
+} */
+
+#sectFigCapP{
+    display: flex;
+    flex-direction: column;
+}
+
+#sectFigCap{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
