@@ -3,6 +3,7 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  color: #1f1f1f;
 }
 
 .logo {
@@ -58,7 +59,7 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
-background-color: #46352a;
+  background-color: #46352a;
 }
 
 footer {
@@ -66,15 +67,21 @@ footer {
   color: #f2efee;
 }
 
-h1{
-    font-weight: 200;
-    font-size: 25px;
+h1 {
+  font-weight: 200;
+  font-size: 25px;
+  color: #f2efee;
 }
 
-.figCap{
-    border: solid 1px;
-    border-color: #46352a;
-    width: 15%;
+.figCap {
+  border: solid 1px;
+  border-color: #46352a;
+  color: #46352a;
+  width: 13%;
+  height: auto;
+  padding: 1.5%;
+  font-size: 15px;
+  text-align: center;
 }
 
 /* #imgP{
@@ -83,13 +90,27 @@ h1{
     text-align: center;
 } */
 
-#sectFigCapP{
-    display: flex;
-    flex-direction: column;
+#h2P {
+  text-align: center;
+  margin-bottom: 4%;
 }
 
-#sectFigCap{
-    display: flex;
-    justify-content: center;
-    gap: 2%;
+#h2P h2 {
+  margin-bottom: 2%;
+}
+
+#sectFigCapP {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+
+#sectFigCap {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+h2 {
+  font-size: 20px;
 }
