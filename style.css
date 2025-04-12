@@ -32,10 +32,10 @@ ul li {
   width: 100px;
 }
 
-h1 h2 {
+h2{
   font-family: "Vollkorn SC", serif;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 600;
 }
 
 body {
@@ -107,7 +107,7 @@ h1 {
 
 #sectFigCap {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 2%;
 }
 
