@@ -1,0 +1,62 @@
+#sectionFabricationMain {
+  background-color: #ddd9d3;
+  padding: 5%;
+  align-items: center;
+  h2 {
+    margin-top: 0%;
+  }
+  margin-top: 10%;
+}
+
+#sectionPhotoTexte {
+  display: flex;
+
+  img {
+    width: 45%;
+  }
+  align-items: center;
+  gap: 5%;
+}
+
+#pSectionFab {
+  flex-direction: column;
+  p {
+    padding: 2%;
+    font-size: 20px;
+  }
+}
+
+.iconeText {
+  display: flex;
+  gap: 5%;
+  align-items: center;
+  margin-bottom: 5%;
+  p {
+    font-size: 20px;
+    text-align: left;
+    align-content: center;
+  }
+  figure {
+    width: 25%;
+    height: 50%;
+    padding: 5%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border: solid 1.5px;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+#iconeMain {
+  width: 88%;
+  img {
+    width: 80%;
+  }
+}
+
+#figParag {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
