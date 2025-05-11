@@ -264,3 +264,105 @@ footer {
     font-size: 12px;
   }
 }
+
+
+
+/* ------------------------------------------------MOBILE 650-------------------------------------- */
+
+@media screen and (max-width: 650px) {
+  html,
+  .root {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 2.1;
+}
+
+  #imgLogoHeader {
+    width: 50%;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+}
+
+.sect1{
+  flex-direction: row;
+ 
+}
+#sectH1{
+  h1{
+    font-size: 18px;
+  }
+  text-align: center;
+  padding: 10px;
+}
+
+#sectFigCap {
+ gap: 15px;
+ align-items: center;
+ margin-bottom: 10%;
+}
+
+.figCap {
+  width: 50%;
+}
+
+#h2P {
+  text-align: center;
+  margin-bottom: 10%;
+
+  p{
+    font-size: 15px;
+  }
+}
+
+#bandeVerte {
+  h2 {
+      color: #f2efee;
+      font-weight: 200;
+      font-size: 15px;
+  }
+}
+
+.card {
+  color: #333333;
+  box-shadow: 0 4px 15px 5px #00000029;
+  width: 90%;
+  padding: 3%;
+  border-radius: 2%;
+  margin-bottom: 25px;
+}
+
+#sectCard {
+  display: flex;
+  align-items: anchor-center;
+  text-align: center;
+}
+
+#sectForm {
+  display: none;
+}
+
+footer{
+  p{
+    font-size: 10px;
+  }
+  a img {
+    width: 25%;
+    object-fit: cover;
+}
+}
+}
